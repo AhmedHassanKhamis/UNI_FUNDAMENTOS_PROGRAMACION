@@ -14,6 +14,6 @@ int main()
     printf("Bienvenido al letraneitor!\n");
     printf("Introduce un caracter:\n");
     scanf("%c", &letra);
-    printf("El siguiente caracter es: %c", letra + 1 );
+    printf("El siguiente caracter es: %c", letra - 1 );
     return 0;
 }
